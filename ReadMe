@@ -1,1 +1,42 @@
-ReadMe
+Instrucciones para Clonar y Ejecutar el Proyecto Java
+
+1. Clonar el Repositorio de GitHub
+El primer paso es descargar una copia del código a la máquina local.
+
+Abre una terminal o línea de comandos (por ej Git Bash).
+
+Navega al directorio donde deseas guardar el proyecto 
+
+Ejecuta el comando de clonación:
+
+git clone https://github.com/sabrivg/TP_TEORIA_DE_CONTROL.git
+
+El código fuente del proyecto se descargará en una carpeta con el mismo nombre que el repositorio.
+
+2. Abrir y Configurar el Proyecto en IntelliJ IDEA
+
+Abre IntelliJ IDEA.
+
+Selecciona "Open" (Abrir) o "File" > "Open..." (Archivo > Abrir...).
+
+Navega y selecciona la carpeta del proyecto que acabas de clonar.
+
+IntelliJ IDEA debería reconocer automáticamente que es un proyecto Java e intentará resolver las dependencias.
+
+Verifica el SDK (JDK): 17
+Build System: Maven
+
+Ve a "File" > "Project Structure..." (Archivo > Estructura del Proyecto...).
+
+En "Project SDK", selecciona la versión de Java ( JDK 17).
+
+3. Ejecutar la Aplicación
+Finalmente, puede ejecutar el programa.
+
+Identifica la clase "SimulacionPEEP".
+
+Ejecutar:
+
+Opción Rápida: Abre el archivo de la clase principal en el editor. A la izquierda, junto a la declaración de la clase o el método main, aparecerá un pequeño icono de "Play" (ejecutar). Haz clic en él y selecciona "Run 'SimulacionPEEP.main()'".
+
+El resultado del programa se mostrará en la ventana de "Run" (Ejecutar) en la parte inferior de la pantalla de IntelliJ IDEA.
