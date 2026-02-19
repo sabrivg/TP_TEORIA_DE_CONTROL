@@ -27,3 +27,8 @@ public class VentanaPrincipal extends JFrame {
         new VentanaPrincipal();
     }
 }
+
+    public static void main(String[] args) {
+        new VentanaPrincipal();
+    }
+}
